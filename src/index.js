@@ -1,6 +1,7 @@
 import './index.css';
 
 import App from './App';
+import Leap from './Leap Year/Leap';
 import Random from './RandomQuoteGenerater/Random';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
@@ -9,7 +10,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <Random />
+   <Leap />
   </React.StrictMode>
 );
 
