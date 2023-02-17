@@ -1,13 +1,15 @@
+import './index.css';
+
+import App from './App';
+import Random from './RandomQuoteGenerater/Random';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   <Random />
   </React.StrictMode>
 );
 
